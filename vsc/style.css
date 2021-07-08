@@ -1,0 +1,42 @@
+.logo-div {
+  width: 500px;
+  height: 500px;
+  background-image: url("./IMGWORLD.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.logo-img {
+  width: 500px;
+  height: 500px;
+}
+
+@media only screen and (max-width: 800px) {
+  .logo-div,
+  .logo-img {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .logo-div,
+  .logo-img {
+    width: 350px;
+    height: 350px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .logo-div,
+  .logo-img {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .logo-div,
+  .logo-img {
+    width: 200px;
+    height: 200px;
+  }
+}
